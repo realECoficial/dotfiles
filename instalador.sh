@@ -37,8 +37,8 @@ while true; do
 	esac
 done
 
-sudo pacman -S fastfetch waybar kitty dunst thunar qt5-wayland qt6-wayland ttf-font-awesome gtk4 gtk3 gtk2 cava libreoffice rustup yay ttc-iosevka swww xfce4 calcurse
-yay -S grimblast tofi
+sudo pacman -S fastfetch waybar kitty dunst thunar qt5-wayland qt6-wayland ttf-font-awesome gtk4 gtk3 gtk2 cava libreoffice rustup ttc-iosevka swww calcurse
+
 while true; do
 	echo ""
 	read -p "QUIERES COPIAR LOS ARCHIVOS A: .config? PUEDES TAMBIEN HACERLO MANUALMENTE :V (Yy/Nn): " yn
