@@ -37,7 +37,7 @@ while true; do
 	esac
 done
 
-sudo pacman -S fastfetch waybar kitty dunst thunar qt5-wayland qt6-wayland ttf-font-awesome gtk4 gtk3 gtk2 cava libreoffice rustup ttc-iosevka swww calcurse
+sudo pacman -S fastfetch waybar dunst thunar qt5-wayland qt6-wayland ttf-font-awesome gtk4 gtk3 gtk2 cava libreoffice rustup ttc-iosevka swww calcurse
 
 while true; do
 	echo ""
