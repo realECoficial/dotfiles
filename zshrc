@@ -113,6 +113,4 @@ export PATH=/home/ec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib
 export PATH="$HOME/.cargo/bin:$PATH"
 
 
-bindkey -v
-
 
