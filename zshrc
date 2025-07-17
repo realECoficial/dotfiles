@@ -105,6 +105,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#this is the only thing i added myself xd
+bindkey -v
+fastfetch
+#variables porque no las tengo aca we:v
+export PATH=/home/ec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
 bindkey -v
 
 
