@@ -6,5 +6,8 @@ Esta mi config :v , aca lo tendre como un buen repertorio de mi arch, no es la g
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aae98c89-4710-4e80-a55b-e51b53b2fbdf" />
 
+# VERSION ACTUAL 
+Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Ghostty](https://ghostty.org/) :v
+
 
 
