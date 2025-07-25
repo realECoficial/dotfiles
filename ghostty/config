@@ -42,7 +42,10 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-family = "Iosevka NFM"
+#font-family = Iosevka NFM
+font-family = Source Code Pro Light  
 font-size = 15
 background-opacity = 0.9
-theme = "srcery"
+#theme = GruvboxDarkHard 
+theme = CutiePro 
+
