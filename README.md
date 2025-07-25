@@ -7,10 +7,11 @@ Esta mi config :v , aca lo tendre como un buen repertorio de mi arch, no es la g
  fonts: ttf-adobe-source-code-pro-fonts
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9860d5f7-0e73-43d9-8bb0-ad5547b305bf" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6e561f84-8066-43f1-ba4e-6fe9086a826a" />
+
+
 
 # VERSION ACTUAL 
-Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [Ghostty](https://ghostty.org/) con el theme "srcery" de la lista de [themas](https://ghostty.org/docs/features/theme)
-aun uso kitty para algunas aplicaciones xd, pero un dia vere si solo puedo usar ghostty.
-
+Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [Ghostty](https://ghostty.org/) 
 
 
