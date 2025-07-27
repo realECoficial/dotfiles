@@ -1,8 +1,0 @@
-2025/07/27-08:40:20.053 776 Reusing MANIFEST /home/ec/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/07/27-08:40:20.066 776 Recovering log #652
-2025/07/27-08:40:20.066 776 Reusing old log /home/ec/.config/discord/Local Storage/leveldb/000652.log 
-2025/07/27-08:41:03.862 776 Level-0 table #656: started
-2025/07/27-08:41:03.864 776 Level-0 table #656: 108673 bytes OK
-2025/07/27-08:41:03.865 776 Delete type=0 #652
-2025/07/27-08:41:03.865 776 Compacting 4@0 + 1@1 files
-2025/07/27-08:41:03.869 776 compacted to: files[ 4 2 1 0 0 0 0 ]

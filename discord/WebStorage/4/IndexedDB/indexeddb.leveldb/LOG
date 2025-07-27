@@ -1,7 +1,0 @@
-2025/06/25-04:43:50.928 2ea3 Reusing MANIFEST /home/ec/.config/discord/WebStorage/4/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/06/25-04:43:50.928 2ea3 Recovering log #3
-2025/06/25-04:43:50.928 2ea3 Reusing old log /home/ec/.config/discord/WebStorage/4/IndexedDB/indexeddb.leveldb/000003.log 
-2025/06/25-05:51:33.703 2ea2 Level-0 table #5: started
-2025/06/25-05:51:33.704 2ea2 Level-0 table #5: 830 bytes OK
-2025/06/25-05:51:33.705 2ea2 Delete type=0 #3
-2025/06/25-05:51:33.705 2ea2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
