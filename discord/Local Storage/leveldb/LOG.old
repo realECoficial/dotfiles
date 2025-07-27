@@ -1,21 +1,8 @@
-2025/07/26-20:29:36.075 212c Reusing MANIFEST /home/ec/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/07/26-20:29:36.084 212c Recovering log #631
-2025/07/26-20:29:36.085 212c Reusing old log /home/ec/.config/discord/Local Storage/leveldb/000631.log 
-2025/07/26-20:33:45.087 212d Level-0 table #635: started
-2025/07/26-20:33:45.110 212d Level-0 table #635: 1649830 bytes OK
-2025/07/26-20:33:45.112 212d Delete type=0 #631
-2025/07/26-20:33:45.113 212d Compacting 4@0 + 1@1 files
-2025/07/26-20:33:45.147 212d Generated table #636@0: 148 keys, 2734821 bytes
-2025/07/26-20:33:45.147 212d Compacted 4@0 + 1@1 files => 2734821 bytes
-2025/07/26-20:33:45.148 212d compacted to: files[ 0 2 1 0 0 0 0 ]
-2025/07/26-20:33:45.148 212d Delete type=2 #630
-2025/07/26-20:33:45.148 212d Delete type=2 #632
-2025/07/26-20:33:45.148 212d Delete type=2 #628
-2025/07/26-20:33:45.148 212d Delete type=2 #635
-2025/07/26-20:33:45.148 212d Delete type=2 #626
-2025/07/26-20:33:52.918 212d Level-0 table #638: started
-2025/07/26-20:33:52.922 212d Level-0 table #638: 105351 bytes OK
-2025/07/26-20:33:52.924 212d Delete type=0 #634
-2025/07/26-20:38:36.723 212d Level-0 table #640: started
-2025/07/26-20:38:36.726 212d Level-0 table #640: 104253 bytes OK
-2025/07/26-20:38:36.728 212d Delete type=0 #637
+2025/07/27-08:40:20.053 776 Reusing MANIFEST /home/ec/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/07/27-08:40:20.066 776 Recovering log #652
+2025/07/27-08:40:20.066 776 Reusing old log /home/ec/.config/discord/Local Storage/leveldb/000652.log 
+2025/07/27-08:41:03.862 776 Level-0 table #656: started
+2025/07/27-08:41:03.864 776 Level-0 table #656: 108673 bytes OK
+2025/07/27-08:41:03.865 776 Delete type=0 #652
+2025/07/27-08:41:03.865 776 Compacting 4@0 + 1@1 files
+2025/07/27-08:41:03.869 776 compacted to: files[ 4 2 1 0 0 0 0 ]
