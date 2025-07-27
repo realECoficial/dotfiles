@@ -1,5 +1,3 @@
-# BLOATED
-most bloated dotfiles out there... USE THIS ON YOUR OWN RISK!!!.
 # DISCLAIMER 
 INSTALADOR NO TESTEADO (TODO).
 # E.C ENVIROMENT!!!
