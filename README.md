@@ -2,13 +2,13 @@
 INSTALADOR NO TESTEADO (TODO).
 # E.C ENVIROMENT!!!
 Esta mi config :v , aca lo tendre como un buen repertorio de mi arch, no es la gran cosa, tiene algunos adimentos mios para programar y vivir :) [creditos a instalador](https://github.com/dakota-m/hyprland-setup/blob/main/1-install.sh)
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41f9caf8-b8b7-4b70-b3c1-4506e44abdad" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aae98c89-4710-4e80-a55b-e51b53b2fbdf" />
+<img width="1920" height="1080" alt="2025-07-26T20:47:10,640009509-04:00" src="https://github.com/user-attachments/assets/dc5b604f-56ff-428e-ac8e-4eba6be92f5e" />
+
+<img width="1920" height="1080" alt="2025-07-25T12:21:40,140056802-04:00" src="https://github.com/user-attachments/assets/e9b8a356-e227-422a-98dc-6553ec0b6a6c" />
+
+<img width="1920" height="1080" alt="2025-07-25T12:22:34,795172361-04:00" src="https://github.com/user-attachments/assets/c59abec8-51f3-40eb-96dd-4fc456fb44e4" />
+
 
 # VERSION ACTUAL 
-Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [Ghostty](https://ghostty.org/) con el theme "srcery" de la lista de [themas](https://ghostty.org/docs/features/theme)
-aun uso kitty para algunas aplicaciones xd, pero un dia vere si solo puedo usar ghostty.
-
-
-
+Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [Ghostty](https://ghostty.org/)
