@@ -1,0 +1,14 @@
+[2025-06-05 04:07:07.743][verbose] Chromium sandbox is enabled
+[2025-06-05 04:07:07.744][info] Running version 2025.6
+[2025-06-05 04:07:07.776][info] Detected locale: en-US
+[2025-06-05 04:07:07.796][info] Connected to the daemon
+[2025-06-05 04:07:07.835][info] Skip autoconnect because GUI setting is disabled
+[2025-06-05 04:07:08.003][error] Failed to check autostart file: ENOENT: no such file or directory, access '/home/ec/.config/autostart/mullvad-vpn.desktop'
+[2025-06-05 04:07:08.054][info] Showing notification icon: "Account is out of time"
+[2025-06-05 04:07:14.170][info] Hiding notification icon
+[2025-06-05 04:07:17.476][info] Showing notification icon: "Account is out of time"
+[2025-06-05 04:07:35.590][info] Disconnected the tunnel
+[2025-06-05 04:07:35.590][info] before-quit received
+[2025-06-05 04:07:35.590][info] Quit initiated
+[2025-06-05 04:07:35.591][info] Unsubscribed from the daemon events
+[2025-06-05 04:07:35.592][verbose] GRPC Channel connectivity state changed to 4

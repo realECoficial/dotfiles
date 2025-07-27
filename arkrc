@@ -1,0 +1,11 @@
+[ExtractDialog]
+1920x1080 screen: Height=690
+1920x1080 screen: Width=1280
+DirHistory[$e]=$HOME/Downloads/,$HOME/music assets /???/,$HOME/melee isos/mish..?/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
