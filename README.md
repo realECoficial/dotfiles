@@ -12,6 +12,7 @@ Esta mi config :v , aca lo tendre como un buen repertorio de mi arch, no es la g
 
 # VERSION ACTUAL 
 Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [kitty](https://sw.kovidgoyal.net/kitty/)
-
+Tengo un script para tener cava en el fondo xd
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36382af0-4bfb-46ed-80f4-a6b64d1ddb4f" />
 # LISTA APPS QUE USO:
 uso: Kitty, cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, nose que mas :v
