@@ -15,4 +15,4 @@ Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [
 Tengo un script para tener cava en el fondo xd
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36382af0-4bfb-46ed-80f4-a6b64d1ddb4f" />
 # LISTA APPS QUE USO:
-uso: Kitty, cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, nose que mas :v
+uso: Kitty, cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, nose que mas :v
