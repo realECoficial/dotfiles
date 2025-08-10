@@ -2,17 +2,19 @@
 INSTALADOR NO TESTEADO (TODO).
 # E.C ENVIROMENT!!!
 Esta mi config :v , aca lo tendre como un buen repertorio de mi arch, no es la gran cosa, tiene algunos adimentos mios para programar y vivir :) [creditos a instalador](https://github.com/dakota-m/hyprland-setup/blob/main/1-install.sh)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/25700c25-7171-454d-8a3f-7b3611f9eb28" />
 
-<img width="1920" height="1080" alt="2025-07-26T20:47:10,640009509-04:00" src="https://github.com/user-attachments/assets/dc5b604f-56ff-428e-ac8e-4eba6be92f5e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c25ff7d-6b49-4450-a3a1-b005746bfcb4" />
 
-<img width="1920" height="1080" alt="2025-07-25T12:21:40,140056802-04:00" src="https://github.com/user-attachments/assets/e9b8a356-e227-422a-98dc-6553ec0b6a6c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67b61a04-9103-49a9-8e62-3df6ca361943" />
 
-<img width="1920" height="1080" alt="2025-07-25T12:22:34,795172361-04:00" src="https://github.com/user-attachments/assets/c59abec8-51f3-40eb-96dd-4fc456fb44e4" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37bd8a37-58e4-4484-87c3-45a96efaa6d6" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64b2b511-d624-4ad4-bce9-62b4a78b33cd" />
 
 # VERSION ACTUAL 
-Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [kitty](https://sw.kovidgoyal.net/kitty/)
+Estoy ahora ocupando como bash [zsh](https://wiki.archlinux.org/title/Zsh) con [Oh-my-zsh](https://ohmyz.sh/#install), como emulador de termial me quede con: [Alacritty](https://alacritty.org/) me encanta Rust y no sabia que esta terminal estaba hecha en rust xddd
 Tengo un script para tener cava en el fondo xd
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36382af0-4bfb-46ed-80f4-a6b64d1ddb4f" />
 # LISTA APPS QUE USO:
-uso: Kitty, cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, zathura (yay) nose que mas :v
+uso: Alacritty, kitty (para usarlo con cava y mpv), cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, sioyekr (yay) nose que mas :v
