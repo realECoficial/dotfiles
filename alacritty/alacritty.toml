@@ -1,0 +1,106 @@
+[window]
+  opacity = 0.9  
+
+[font]
+
+  normal  = { family = "Terminus" , style = "Regular"}
+  size = 13
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/{hatsunemiku}.toml"
+]
+
+# Colours (Monokai Charcoal)
+
+# Default Colours
+[colors.primary]
+background = '#000000'
+foreground = '#FFFFFF'
+
+# Normal Colours
+[colors.normal]
+black   = '#1c1f20'
+red     = '#d63828'
+green   = '#718200'
+yellow  = '#f0b100'
+blue    = '#3e70b0'
+magenta = '#8b62ab'
+cyan    = '#3791a1'
+white   = '#ffffff'
+
+# Bright Colours
+[colors.bright]
+black   = '#686868'
+red     = '#e05b51'
+green   = '#bac146'
+yellow  = '#ecc147'
+blue    = '#78a5dc'
+magenta = '#c79ed7'
+cyan    = '#6cb8b4'
+white   = '#ebebeb'
+
+#ESTE TAMBIEN MOLA TIO
+# miasma: https://github.com/xero/miasma.nvim
+
+# Primary colors
+#[colors.primary]
+#background = "#222222"
+#foreground = "#c2c2b0"
+#
+## Normal colors
+#[colors.normal]
+#black = "#222222"
+#red = "#685742"
+#green = "#5f875f"
+#yellow = "#b36d43"
+#blue = "#78824b"
+#magenta = "#bb7744"
+#cyan = "#c9a554"
+#white = "#d7c483"
+#
+## Bright colors
+#[colors.bright]
+#black = "#666666"
+#red = "#685742"
+#green = "#5f875f"
+#yellow = "#b36d43"
+#blue = "#78824b"
+#magenta = "#bb7744"
+#cyan = "#c9a554"
+#white = "#d7c483"
+
+
+#ESTE MOLO TIO
+
+# Colors (PaperColor - Dark)
+
+# Default colors
+#[colors.primary]
+#background = '#1c1c1c'
+#foreground = '#808080'
+#
+#[colors.cursor]
+#text = '#1c1c1c'
+#cursor = '#808080'
+#
+## Normal colors
+#[colors.normal]
+#black   = '#1c1c1c'
+#red     = '#af005f'
+#green   = '#5faf00'
+#yellow  = '#d7af5f'
+#blue    = '#5fafd7'
+#magenta = '#808080'
+#cyan    = '#d7875f'
+#white   = '#d0d0d0'
+#
+## Bright colors
+#[colors.bright]
+#black   = '#585858'
+#red     = '#5faf5f'
+#green   = '#afd700'
+#yellow  = '#af87d7'
+#blue    = '#ffaf00'
+#magenta = '#ffaf00'
+#cyan    = '#00afaf'
+#white   = '#5f8787'
