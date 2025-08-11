@@ -7,8 +7,10 @@
 }
 
 window#waybar {
-   /* background-color: rgba(43, 48, 59, 0.5);*/
+   /* background-color: rgba(0,0 , 0, 0.5);*/
+   /* background-color: rgba(0,0 , 0, 0.5);*/
    /* border-bottom: 3px solid #6c2525;*/
+    border-bottom: 1px solid #1c1c24;
     background-color: #000000;
     color: #ffffff;
     /*transition-property: background-color;*/
