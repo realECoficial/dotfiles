@@ -20,14 +20,20 @@ font pango:Terminus 14
 #font pango:DejaVu Sans Mono 8
 # Star w/ my resolution
 exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 --rate 60.00
+
+exec --no-startup-id setxkbmap -layout 'us,es' -option 'grp:win_space_toggle'
 # wallpaper
-exec xset r rate 250 60
 exec feh --bg-scale ~/.config/backgrounds/14.png
+#cosas mias
+exec xset r rate 250 60
+exec xinput --set-prop 12 'libinput Accel Speed' -0.5
+exec greenclip daemon
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-for_window [class="^.*"] border pixel 1 
+for_window [class="^.*"] border pixel 2 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -40,11 +46,11 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+  # set $refresh_i3status killall -SIGUSR1 i3status
+  # bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+  # bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+  # bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+  # bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -56,7 +62,7 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 # custom start terminal
-bindsym $mod+t exec alacritty 
+bindsym $mod+t exec st 
 # kill focused window
 bindsym $mod+q kill
 
@@ -68,6 +74,8 @@ bindsym $mod+a exec --no-startup-id dmenu_run
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
+#greenclip with dmenu
+bindsym $mod+v exec greenclip print | grep . | dmenu -i -l 10 -p clipboard | xargs -r -d'\n' -I '{}' greenclip print '{}'
 
 #change background as you wish
 
@@ -79,7 +87,9 @@ bindsym $mod+F5 exec feh --bg-scale ~/.config/backgrounds/12.png
 bindsym $mod+F6 exec feh --bg-scale ~/.config/backgrounds/13.png 
 bindsym $mod+F7 exec feh --bg-scale ~/.config/backgrounds/14.png 
 
+#open thunar
 
+bindsym $mod+f exec thunar 
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -111,7 +121,7 @@ bindsym $mod+Shift+l move right
 #bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -211,20 +221,3 @@ bar {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
