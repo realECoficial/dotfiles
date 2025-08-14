@@ -24,5 +24,9 @@ Explicaciòn de como es:[ultimate yt-browser](https://github.com/LukeSmithxyz/vo
 
 total creditos a [emrakyz](https://github.com/emrakyz)
 eres un dios
+# i3 mini showcase
+<img width="1920" height="1080" alt="2025-08-14-19:52:26" src="https://github.com/user-attachments/assets/39972ae7-9091-4d5b-b1ec-5fd2b0dcf99d" />
+me termino gustando bastante i3 :p, tengo todo lo que hyprland tiene pero un
+poco mas roto xd
 # LISTA APPS QUE USO:
 uso:st, Alacritty, kitty (para usarlo con cava y mpv), cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, sioyekr (yay), dmenu con greenclip(clipboard), maim+clipx+dmenu+greenclip: screenshots copy & paste.  nose que mas :v

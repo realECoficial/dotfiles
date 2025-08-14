@@ -28,7 +28,8 @@ exec --no-startup-id feh --bg-scale ~/.config/backgrounds/15.png
 exec --no-startup-id xset r rate 250 60
 exec --no-startup-id xinput --set-prop 12 'libinput Accel Speed' -0.5
 #exec --no-startup-id greenclip clear
-exec --no-startup-id shred -u ~/.cache/greenclip.history 
+#exec --no-startup-id shred -u ~/.cache/greenclip.history 
+exec --no-startup-id greenclip clear 
 #with picom now i3 is hyprlnad  xorg xd
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b 
 
@@ -71,10 +72,6 @@ tiling_drag modifier titlebar
 
 
 
-#
-## Clipboard Screenshots
-bindsym Print exec --no-startup-id "maim | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Screenshots/$(date +%F-%H:%M:%S).png" 
-bindsym Shift+Print exec --no-startup-id "maim -s | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Screenshots/$(date +%F-%H:%M:%S).png" 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 # custom start terminal
@@ -90,8 +87,14 @@ bindsym $mod+a exec --no-startup-id dmenu_run
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
+#
+## Clipboard Screenshots
+bindsym $mod+p exec  "maim | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Pictures/$(date +%F-%H:%M:%S).png" 
+bindsym $mod+Shift+p exec  "maim -s | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Pictures/$(date +%F-%H:%M:%S).png" 
+
+
 #greenclip with dmenu
-bindsym $mod+v exec greenclip print | grep . | dmenu -i -l 10 -p clipboard | xargs -r -d'\n' -I '{}' greenclip print '{}'
+bindsym $mod+v exec greenclip print | grep . | dmenu -i -l 30 -p clipboard | xargs -r -d'\n' -I '{}' greenclip print '{}'
 
 #change background as you wish
 
@@ -231,7 +234,8 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+       status_command i3status --config ~/.config/i3/i3status/config 
+        #status_command i3status
         position top
 
 
