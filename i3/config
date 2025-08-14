@@ -27,12 +27,18 @@ exec --no-startup-id feh --bg-scale ~/.config/backgrounds/15.png
 #cosas mias
 exec --no-startup-id xset r rate 250 60
 exec --no-startup-id xinput --set-prop 12 'libinput Accel Speed' -0.5
-exec --no-startup-id greenclip daemon
 #exec --no-startup-id greenclip clear
 exec --no-startup-id shred -u ~/.cache/greenclip.history 
 #with picom now i3 is hyprlnad  xorg xd
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b 
+
+
+#various daemons
+
+exec --no-startup-id greenclip daemon
 exec --no-startup-id thunar --daemon
+exec --no-startup-id alacritty --daemon
+
 #greenclip cleargreenclip clear Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
@@ -72,7 +78,7 @@ bindsym Shift+Print exec --no-startup-id "maim -s | xclip -selection clipboard -
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 # custom start terminal
-bindsym $mod+t exec st 
+bindsym $mod+t exec alacritty msg create-window 
 # kill focused window
 bindsym $mod+q kill
 
@@ -227,8 +233,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         position top
-        
-
 
 
 }
