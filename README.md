@@ -25,4 +25,4 @@ Explicaciòn de como es:[ultimate yt-browser](https://github.com/LukeSmithxyz/vo
 total creditos a [emrakyz](https://github.com/emrakyz)
 eres un dios
 # LISTA APPS QUE USO:
-uso:st, Alacritty, kitty (para usarlo con cava y mpv), cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, sioyekr (yay), dmenu con greenclip(clipboard) nose que mas :v
+uso:st, Alacritty, kitty (para usarlo con cava y mpv), cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, sioyekr (yay), dmenu con greenclip(clipboard), maim+clipx+dmenu+greenclip: screenshots copy & paste.  nose que mas :v

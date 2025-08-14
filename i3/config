@@ -23,13 +23,16 @@ exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 --rate 60.00
 
 exec --no-startup-id setxkbmap -layout 'us,es' -option 'grp:win_space_toggle'
 # wallpaper
-exec feh --bg-scale ~/.config/backgrounds/14.png
+exec --no-startup-id feh --bg-scale ~/.config/backgrounds/15.png
 #cosas mias
-exec xset r rate 250 60
-exec xinput --set-prop 12 'libinput Accel Speed' -0.5
-exec greenclip daemon
-exec greenclip clear
-exec picom --config ~/.config/picom/picom.conf -b 
+exec --no-startup-id xset r rate 250 60
+exec --no-startup-id xinput --set-prop 12 'libinput Accel Speed' -0.5
+exec --no-startup-id greenclip daemon
+#exec --no-startup-id greenclip clear
+exec --no-startup-id shred -u ~/.cache/greenclip.history 
+#with picom now i3 is hyprlnad  xorg xd
+exec --no-startup-id picom --config ~/.config/picom/picom.conf -b 
+exec --no-startup-id thunar --daemon
 #greenclip cleargreenclip clear Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
@@ -60,6 +63,12 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+
+
+#
+## Clipboard Screenshots
+bindsym Print exec --no-startup-id "maim | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Screenshots/$(date +%F-%H:%M:%S).png" 
+bindsym Shift+Print exec --no-startup-id "maim -s | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Screenshots/$(date +%F-%H:%M:%S).png" 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 # custom start terminal
@@ -87,6 +96,7 @@ bindsym $mod+F4 exec feh --bg-scale ~/.config/backgrounds/5.png
 bindsym $mod+F5 exec feh --bg-scale ~/.config/backgrounds/12.png 
 bindsym $mod+F6 exec feh --bg-scale ~/.config/backgrounds/13.png 
 bindsym $mod+F7 exec feh --bg-scale ~/.config/backgrounds/14.png 
+bindsym $mod+F8 exec feh --bg-scale ~/.config/backgrounds/15.png 
 
 #open thunar
 
