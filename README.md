@@ -31,7 +31,9 @@ eres un dios
 <img width="1920" height="1080" alt="2025-08-14-19:52:26" src="https://github.com/user-attachments/assets/39972ae7-9091-4d5b-b1ec-5fd2b0dcf99d" />
 me termino gustando bastante i3 :p, tengo todo lo que hyprland tiene pero un
 poco mas roto xd
+
 # LISTA COSAS PARA QUE USO EN I3:
+
 //seccion especifica de i3
 
 [Terminus font](https://archlinux.org/packages/extra/any/terminus-font/)
