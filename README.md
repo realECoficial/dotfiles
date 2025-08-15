@@ -33,6 +33,7 @@ me termino gustando bastante i3 :p, tengo todo lo que hyprland tiene pero un
 poco mas roto xd
 # LISTA COSAS PARA QUE USO EN I3:
 //seccion especifica de i3
+
 [Terminus font](https://archlinux.org/packages/extra/any/terminus-font/)
 
 [xrandr (para tamaño de la pantalla)](https://wiki.archlinux.org/title/Xrandr)
