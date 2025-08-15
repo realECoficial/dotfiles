@@ -60,6 +60,8 @@ poco mas roto xd
 
 [maim (screenshots)](https://archlinux.org/packages/extra/x86_64/maim/)
 
+[xclip](https://man.archlinux.org/man/xclip.1.en)
+
 //seccion que sirve en cualquier sistema operativo
 
 [zsh shell](https://wiki.archlinux.org/title/Zsh)
