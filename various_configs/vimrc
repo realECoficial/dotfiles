@@ -1,0 +1,33 @@
+set number
+set laststatus=2
+set relativenumber number
+"set cursorline                 " Resaltar la línea del cursor
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+"am trying something that i see on the internet!!!"
+set autoindent
+set textwidth=80
+
+"auto scaling de el texto"
+"set wrap
+"set termguicolors
+"gestor de plugins"
+call plug#begin('~/.vim/plugged')
+" Aquí defines los plugins que quieras instalar.
+Plug 'junegunn/vim-plug'
+Plug 'morhetz/gruvbox'
+call plug#end()
+" Usar Tab para avanzar en el menú de autocompletado y Shift-Tab para retroceder
+" Cambiar el color de fondo del popup de autocompletado
+filetype plugin on
+
+
+
+let g:gruvbox_termcolors = 256  " Usar 256 colores en terminales compatibles
+
+
+"set relativenumber             " Mostrar números relativos
+"syntax enable

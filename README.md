@@ -31,5 +31,42 @@ eres un dios
 <img width="1920" height="1080" alt="2025-08-14-19:52:26" src="https://github.com/user-attachments/assets/39972ae7-9091-4d5b-b1ec-5fd2b0dcf99d" />
 me termino gustando bastante i3 :p, tengo todo lo que hyprland tiene pero un
 poco mas roto xd
+# LISTA COSAS PARA QUE USO EN I3:
+//seccion especifica de i3
+[Terminus font](https://archlinux.org/packages/extra/any/terminus-font/)
+
+[xrandr (para tamaño de la pantalla)](https://wiki.archlinux.org/title/Xrandr)
+
+[setxkbmap (solo para togglear idiomas)](https://man.archlinux.org/man/setxkbmap.1.html)
+
+[feh (para fondos de pantalla)](https://wiki.archlinux.org/title/Feh)
+
+[xset (para cambiar delay del teclado)](https://man.archlinux.org/man/xset.1)
+
+[xinput (para cambiar sensibilidad del mouse)](https://wiki.archlinux.org/title/Xinput)
+
+[greenclip (clipboard con dmenu)](https://github.com/erebe/greenclip)
+
+[picom (para transparencia)](https://wiki.archlinux.org/title/Picom)
+
+[Alacritty terminal](https://wiki.archlinux.org/title/Alacritty)
+
+[Dmenu](https://wiki.archlinux.org/title/Dmenu)
+
+[Thunar](https://wiki.archlinux.org/title/Thunar)
+
+[maim (screenshots)](https://archlinux.org/packages/extra/x86_64/maim/)
+
+//seccion que sirve en cualquier sistema operativo
+
+[zsh shell](https://wiki.archlinux.org/title/Zsh)
+
+[vim](https://wiki.archlinux.org/title/Vim)
+
+[Librewolf](https://librewolf.net/)
+
+[git](https://aur.archlinux.org/packages/yay)
+
+
 # LISTA APPS QUE USO:
 uso:st, Alacritty, kitty (para usarlo con cava y mpv), cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, sioyekr (yay), dmenu con greenclip(clipboard), maim+clipx+dmenu+greenclip: screenshots copy & paste.  nose que mas :v
