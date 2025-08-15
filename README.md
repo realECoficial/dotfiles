@@ -21,7 +21,10 @@ Estoy usando [i3](https://i3wm.org/), aprovechando esto, probe una aplicaciòn q
 
 Explicaciòn de como es:[ultimate yt-browser](https://github.com/LukeSmithxyz/voidrice/pull/1320)
 [script que a mi me funciono](https://github.com/LukeSmithxyz/voidrice/pull/1320/commits/8e7c55f58611e5152771729d427223744a01a213)
-
+(DISCLAIMER), cambie algunos comandos para que pueda funcionar con las coockies
+de brave, despues de ver y descargar me pide que inicie sesion.
+<img width="871" height="147" alt="2025-08-15-00:02:02" src="https://github.com/user-attachments/assets/4c921621-0b2e-4702-99ca-7605af29db29" />
+[si usan mi setup, mejor vallan leyendo esto.](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies)
 total creditos a [emrakyz](https://github.com/emrakyz)
 eres un dios
 # i3 mini showcase
