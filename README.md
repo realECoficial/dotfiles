@@ -72,6 +72,8 @@ poco mas roto xd
 
 [git](https://aur.archlinux.org/packages/yay)
 
+[calcurse](https://man.archlinux.org/man/extra/calcurse/calcurse.1.en)
+
 
 # LISTA APPS QUE USO:
 uso:st, Alacritty, kitty (para usarlo con cava y mpv), cava, waybar, mpv, yay, git, zsh, vim, librewolf, bemenu, ranger, calcurse, sioyekr (yay), dmenu con greenclip(clipboard), maim+clipx+dmenu+greenclip: screenshots copy & paste.  nose que mas :v
