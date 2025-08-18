@@ -21,7 +21,7 @@ font pango:Terminus 14
 # Star w/ my resolution
 exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 --rate 60.00
 
-exec --no-startup-id setxkbmap -layout 'us,es' -option 'grp:win_alt_toggle'
+exec --no-startup-id setxkbmap -layout 'us,es' -option 'grp:win_space_toggle'
 # wallpaper
 exec --no-startup-id feh --bg-scale ~/.config/backgrounds/15.png
 #cosas mias
