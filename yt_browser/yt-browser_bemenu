@@ -148,13 +148,13 @@ get_all_videos() {
 
 browse_all_channels() {
   while true; do
-    video_title=$(get_all_videos | dmenu -i -l 20 -p "Choose a video or enter @@sv or @@sd to sort by view count or duration")
+    video_title=$(get_all_videos | bemenu-run -i -l 20 -p "Choose a video or enter @@sv or @@sd to sort by view count or duration")
 
     if [[ -z "$video_title" ]]; then
       break
     elif [[ $video_title == "@@sv" ]] || [[ $video_title == "@@sd" ]]; then
       sort_option="$video_title"
-      video_title=$(get_all_videos "$sort_option" | l 20 -dmenu -i -p "Choose a video")
+      video_title=$(get_all_videos "$sort_option" | l 20 -bemenu -i -p "Choose a video")
     fi
 
     if [[ -n "$video_title" ]] && [[ $video_title != "@@sv" ]] && [[ $video_title != "@@sd" ]]; then
@@ -164,7 +164,7 @@ browse_all_channels() {
         fi
       done
 
-      action=$(echo -e "Watch\nDownload\nAdd to Watch Later" | dmenu -i -l 3 -p "Choose an action for the video")
+      action=$(echo -e "Watch\nDownload\nAdd to Watch Later" | bemenu-run -i -l 3 -p "Choose an action for the video")
 
       case $action in
         Watch)
@@ -185,7 +185,7 @@ browse_all_channels() {
 }
 
 # Main script
-update_choice=$(echo -e "No\nYes" | dmenu -i -l 2 -p "Do you want to update the database? (Yes/No)")
+update_choice=$(echo -e "No\nYes" | bemenu  -i -l 2 -p "Do you want to update the database? (Yes/No)")
 case $update_choice in
   Yes)
     update_all_channels
@@ -199,7 +199,7 @@ case $update_choice in
 esac
 
 while true; do
-	main_choice=$(echo -e "All Channels\nCategories\nWatch Later List\n$(printf '%s\n' "${!CHANNELS[@]}")" | dmenu -i -l 20 -p "Choose an Option or a Channel")
+	main_choice=$(echo -e "All Channels\nCategories\nWatch Later List\n$(printf '%s\n' "${!CHANNELS[@]}")" | bemenu -i -l 20 -p "Choose an Option or a Channel")
 
   if [[ -z "$main_choice" ]]; then
     break
@@ -207,7 +207,7 @@ while true; do
     browse_all_channels
   elif [[ $main_choice == "Categories" ]]; then
     while true; do
-      category=$(echo -e "$(printf '%s\n' "${!CATEGORIES[@]}")" | dmenu -i -l 12 -p "Choose a category")
+      category=$(echo -e "$(printf '%s\n' "${!CATEGORIES[@]}")" | bemenu-run -i -l 12 -p "Choose a category")
 
       if [[ -z "$category" ]]; then
         break
@@ -215,24 +215,24 @@ while true; do
 
       while true; do
         IFS="|" read -ra channels <<< "${CATEGORIES[$category]}"
-        channel_name=$(printf '%s\n' "${channels[@]}" | dmenu -i -l 20 -p "Choose a channel")
+        channel_name=$(printf '%s\n' "${channels[@]}" | bemenu-run -i -l 20 -p "Choose a channel")
 
         if [[ -z "$channel_name" ]]; then
           break
         fi
 
         while true; do
-          video_title=$(get_videos "$channel_name" | dmenu -i -l 20 -p "Choose a video")
+          video_title=$(get_videos "$channel_name" | bemenu -i -l 20 -p "Choose a video")
 
           if [[ -z "$video_title" ]]; then
             break
           elif [[ $video_title == "@@sv" ]] || [[ $video_title == "@@sd" ]]; then
             sort_option="$video_title"
-            video_title=$(get_videos "$channel_name" "$sort_option" | dmenu -i -l 20 -p "Choose a video")
+            video_title=$(get_videos "$channel_name" "$sort_option" | bemenu -i -l 20 -p "Choose a video")
           fi
 
           if [[ -n "$video_title" ]] && [[ $video_title != "@@sv" ]] && [[ $video_title != "@@sd" ]]; then
-            action=$(echo -e "Watch\nDownload\nAdd to Watch Later" | dmenu -i -l 3 -p "Choose an action for the video")
+            action=$(echo -e "Watch\nDownload\nAdd to Watch Later" | bemenu -i -l 3 -p "Choose an action for the video")
 
             case $action in
               Watch)
@@ -254,13 +254,13 @@ while true; do
     done
   elif [[ $main_choice == "Watch Later List" ]]; then
     while true; do
-      video_line=$(cat "$WATCH_LATER_LIST" | dmenu -i -l 5 -p "Choose a video from Watch Later List")
+      video_line=$(cat "$WATCH_LATER_LIST" | bemenu -i -l 5 -p "Choose a video from Watch Later List")
 
       if [[ -z "$video_line" ]]; then
         break
       fi
 
-      action=$(echo -e "Watch\nDownload\nDelete" | dmenu -i -l 3 -p "Choose an action for the video")
+      action=$(echo -e "Watch\nDownload\nDelete" | bemenu -i -l 3 -p "Choose an action for the video")
 
       case $action in
         Watch)
@@ -283,17 +283,17 @@ while true; do
     channel_name="$main_choice"
 
     while true; do
-      video_title=$(get_videos "$channel_name" | dmenu -i -l 20 -p "Choose a video or enter @@sv or @@sd to sort by view count or duration")
+      video_title=$(get_videos "$channel_name" | bemenu -i -l 20 -p "Choose a video or enter @@sv or @@sd to sort by view count or duration")
 
       if [[ -z "$video_title" ]]; then
         break
       elif [[ $video_title == "@@sv" ]] || [[ $video_title == "@@sd" ]]; then
         sort_option="$video_title"
-        video_title=$(get_videos "$channel_name" "$sort_option" | l 20 -dmenu -i -p "Choose a video")
+        video_title=$(get_videos "$channel_name" "$sort_option" | l 20 -bemenu -i -p "Choose a video")
       fi
 
       if [[ -n "$video_title" ]] && [[ $video_title != "@@sv" ]] && [[ $video_title != "@@sd" ]]; then
-        action=$(echo -e "Watch\nDownload\nAdd to Watch Later" | dmenu -i -l 3 -p "Choose an action for the video")
+        action=$(echo -e "Watch\nDownload\nAdd to Watch Later" | bemenu -i -l 3 -p "Choose an action for the video")
 
         case $action in
           Watch)
